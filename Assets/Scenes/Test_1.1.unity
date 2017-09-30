@@ -135,6 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abbd283c53b5db74cb919cbbd1b2f5dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColoredSpheres:
+  - {fileID: 1501964817408428, guid: b7cd8a5b0eb90ab428350c5ce9b5e2af, type: 2}
+  - {fileID: 1406308366994930, guid: 6328fa4cecaa1fc4ca54248f4b297e57, type: 2}
+  - {fileID: 1002152023213386, guid: 78935083ffca7094da2f4ab0822162d9, type: 2}
   target0: {fileID: 1501964817408428, guid: b7cd8a5b0eb90ab428350c5ce9b5e2af, type: 2}
   target1: {fileID: 1406308366994930, guid: 6328fa4cecaa1fc4ca54248f4b297e57, type: 2}
   target2: {fileID: 1002152023213386, guid: 78935083ffca7094da2f4ab0822162d9, type: 2}

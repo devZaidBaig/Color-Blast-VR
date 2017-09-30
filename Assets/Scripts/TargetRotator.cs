@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TargetRotator : MonoBehaviour {
-    public float rotationSpeed = 100f;
+    public float rotationSpeed = 1f;
     
     public float GetRotationSpeed()
     {
@@ -19,6 +19,8 @@ public class TargetRotator : MonoBehaviour {
 	void Update () {
 
         // Rotates the target sphere prefab with a defined rotationSpeed
-        transform.Rotate(0, -rotationSpeed*Time.deltaTime, 0);
+        transform.Rotate(0, -(rotationSpeed * Time.deltaTime), 0);
 	}
+
+    
 }
